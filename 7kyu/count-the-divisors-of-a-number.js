@@ -9,14 +9,12 @@
 // 30 --> 8 // we have 8 divisors - 1, 2, 3, 5, 6, 10, 15 and 30
 
 // my solution
-
 function getDivisorsCnt(n){
-    let result = [];
-  
-    for (let i = 1; i <= n; i++) {
-      if (n % i == 0) {
-        result.push(i);
-      }
+    let count=0;
+    for(let i=1;i<=n;i++){
+    if(n%i===0){
+      count++;
     }
-    return result.length;
-  }
+    }
+    return count;
+}
