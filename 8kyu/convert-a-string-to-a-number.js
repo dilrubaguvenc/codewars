@@ -14,3 +14,8 @@ const stringToNumber = function(str){
     return str * 1; // multiplying the string value by 1 will return a number
     return null;
 }
+
+
+var stringToNumberr = function(str){
+    return parseInt(str);
+}
