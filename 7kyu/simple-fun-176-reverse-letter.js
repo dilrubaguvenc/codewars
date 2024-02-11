@@ -39,4 +39,4 @@ const reverseLetter = (str) => {
 function reverseLetter(str) {
     let alpha =`abcdefghijklmnopqrstuvwxyz`
     return str.split(``).filter( item => alpha.split(``).includes(item)).reverse().join(``) 
-  }
+}
