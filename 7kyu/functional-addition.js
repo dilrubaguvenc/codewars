@@ -19,3 +19,10 @@ function add(n){
     // return callback function
     return addN;
 }
+
+
+function add(n){
+    return function (x){
+        return n + n
+    }
+}
