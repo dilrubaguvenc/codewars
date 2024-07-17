@@ -10,3 +10,5 @@
 function doubleChar(str) {
     return [...str].map(s => s.repeat(2)).join('')
 }
+
+const doubleCharr = (str) => str.split('').map(s => s + s).join('');
