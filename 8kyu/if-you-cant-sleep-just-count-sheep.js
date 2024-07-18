@@ -16,3 +16,6 @@ var countSheep = function (num){
     }
     return murmur;
 }
+
+
+const countSheep = length => Array.from({length}, (a, b) => ++b + ' sheep...').join('')
