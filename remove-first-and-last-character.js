@@ -7,3 +7,5 @@
 function removeChar(str) {
     return str.slice(1, -1)
 }
+
+// indexs only exists with arrays & negative numbers represent end of word
