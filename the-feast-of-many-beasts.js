@@ -9,3 +9,8 @@
 function feast (beast, feast) {
     return beast[0] === feast[0] && beast[beast.length - 1] === feast[feast.length - 1]
 }
+
+
+function feast (beast, feast) {
+    return beast[0] === feast[0] && beast.slice(-1) === feast.slice(-1)
+}
