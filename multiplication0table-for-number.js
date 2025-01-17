@@ -26,3 +26,11 @@ function mutliTable(number) {
     }
     return table.slice(0, -1)
 }
+
+function mutliTable(number){
+    const table = []
+    for(let i = 1; i <= 10; i++) {
+        table.push(`${i} * ${number} = ${i * number}`)
+    }
+    return table.join('\n')
+}
