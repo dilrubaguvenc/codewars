@@ -9,3 +9,7 @@ function evenOrOdd(number) {
         'Odd'
     }
 }
+
+function evenOrOdd(number) {
+    return number % 2 === 0 ? 'Even' : 'Odd'
+}
