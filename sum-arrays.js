@@ -24,5 +24,9 @@ function sum (numbers) {
     if(numbers === 0) {
         return 0
     }
-    return numbers.reduce((acc, sum)=> acc + numbers, 0)
+    return numbers.reduce((acc, sum)=> acc + sum, 0)
+}
+
+function sum (numbers) {
+    return numbers.reduce((a, b) => a + b, 0)
 }
