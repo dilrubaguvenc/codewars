@@ -12,3 +12,8 @@
 function squareDigits(num) {
     return +num.toString().split('').map(digit => Math.pow(digit, 2)).join('')
 }
+
+
+function squareDigits (num) {
+    return +num.toString().split('').map(i => i*i).join('');
+}
