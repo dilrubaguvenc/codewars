@@ -21,6 +21,8 @@ function enough (cap, on, wait) {
     if (on + wait <= cap) {
         return 0
     } else {
-        return on - wait
+        return (on + wait) - cap
     }
 }
+
+const enough = (cap, on, wait) => on + wait <= cap ? 0 : (on + wait) - cap 
